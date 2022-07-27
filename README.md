@@ -1,7 +1,7 @@
-#Sumário
-##O que é o XPTO
-##Como jogar
-##Features
+# Sumário
+## O que é o XPTO
+## Como jogar
+## Features
 
 #O que é o XPTO
 
