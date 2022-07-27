@@ -1,14 +1,13 @@
-# Sumário
 ## O que é o XPTO
 ## Como jogar
 ## Features
 
-1 O que é o XPTO
+1- O que é o XPTO
 
 XPTO é um mini jogo desenvolvido com linguagem C, executável no cmd.
 É um projeto de cunho escolar, que serviu como trabalho de último ano.
 
-2 Como jogar
+2- Como jogar
 
 O jogo é muito simples, você poderá usar as teclas
 
@@ -20,7 +19,7 @@ d  - Direita
 
 ```
 
-3 Features
+3- Features
 
 O XPTO é um jogo completo, :smile: , possui **3 níveis**(fácil, difícil e impossível), e também possui **2 modos** (história e infinito).
 
