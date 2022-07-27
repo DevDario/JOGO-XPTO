@@ -23,7 +23,7 @@ d  - Direita
 
 O XPTO é um jogo completo, :smile: , possui **3 níveis**(fácil, difícil e impossível), e também possui **2 modos** (história e infinito).
 
-O jogo possuí também**registro de points**, onde o jogador poderá consultar o seu desempenho, isso foi possível através do uso de **ficheiros**, uma possibilidade dentro da linguagem C que possibilita o uso de ficheiros e algumas operações relacionados aos mesmos.
+O jogo possui também **registro de points**, onde o jogador poderá consultar o seu desempenho, isso foi possível através do uso de **ficheiros**, uma possibilidade dentro da linguagem C que possibilita o uso de ficheiros e algumas operações relacionados aos mesmos.
 
 
 **Dê uma :star: ao projeto** 
