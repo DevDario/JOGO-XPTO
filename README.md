@@ -1,20 +1,30 @@
-# JOGO-XPTO
-👨🏻‍💻XPTO é um jogo na tela preta
-Desenvolvido com a linguagem C.
+#Sumário
+##1-O que é o XPTO
+##2-Como jogar
+##3-Features
 
-🔵Foi um projeto apresentado como 
-Exame final na conclusão do 10° ano
-do curso de engenharia informática. 
+#1- O que é o XPTO
 
-🔵O XPTO é um jogo que no início
-foi muito complexo para mim, porque
-era um dos meus primeiros contatos 
-com a linguagem C.
-Então foi um grande desafio, e eu agradeço
-MUITO ao meu professor por ter nos
-proposto este grande desafio, que me
-fez ganhar esse grande amor pela linguagem.
+XPTO é um mini jogo desenvolvido com linguagem C, executável no cmd.
+É um projeto de cunho escolar, que serviu como trabalho de último ano.
 
-#TCH 👨🏻‍💻
+#2-Como jogar
+
+O jogo é muito simples, você poderá usar as teclas
+
+```
+w - Cima 
+a  - Esquerda
+s  -  Baixo
+d  - Direita
+
+```
+
+#3-Features
+
+O XPTO é um jogo completo, :smileface:, possui **3 níveis**(fácil, difícil e impossível), e também possui **2 modos** (história e infinito).
+
+O jogo possuí também**registro de points**, onde o jogador poderá consultar o seu desempenho, isso foi possível através do uso de **ficheiros**, uma possibilidade dentro da linguagem C que possibilita o uso de ficheiros e algumas operações relacionados aos mesmos.
 
 
+**Dê uma :star: ao projeto** 
