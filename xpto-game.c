@@ -4,7 +4,7 @@
 #include <time.h>
 
 	
-	/*variável de escopo global*/
+	/*variÃ¡vel de escopo global*/
 	char player_name[21];
     int pontos;
 	
@@ -182,7 +182,7 @@ main(){
 	if( (play=='W') || (play=='w') ){
 		
 			/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -220,7 +220,7 @@ main(){
 	}else if((play=='s') || (play=='S')){
 		
 			/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -257,7 +257,7 @@ main(){
 	}else if((play=='d') || (play=='D')){
 		
 			/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -292,7 +292,7 @@ main(){
 	}else if((play=='a') || (play=='A')){
 		
 		/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -456,7 +456,7 @@ main(){
 	if( (play=='W') || (play=='w') ){
 		
 			/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -494,7 +494,7 @@ main(){
 	}else if((play=='s') || (play=='S')){
 		
 			/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -531,7 +531,7 @@ main(){
 	}else if((play=='d') || (play=='D')){
 		
 			/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -566,7 +566,7 @@ main(){
 	}else if((play=='a') || (play=='A')){
 		
 		/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -729,7 +729,7 @@ main(){
 	if( (play=='W') || (play=='w') ){
 		
 			/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -767,7 +767,7 @@ main(){
 	}else if((play=='s') || (play=='S')){
 		
 			/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -804,7 +804,7 @@ main(){
 	}else if((play=='d') || (play=='D')){
 		
 			/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -839,7 +839,7 @@ main(){
 	}else if((play=='a') || (play=='A')){
 		
 		/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -969,7 +969,7 @@ char campo[5][5], play;
 	if( (play=='W') || (play=='w') ){
 		
 			/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -1000,7 +1000,7 @@ char campo[5][5], play;
 	}else if((play=='s') || (play=='S')){
 		
 			/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -1030,7 +1030,7 @@ char campo[5][5], play;
 	}else if((play=='d') || (play=='D')){
 		
 			/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -1057,7 +1057,7 @@ char campo[5][5], play;
 	}else if((play=='a') || (play=='A')){
 		
 		/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -1110,7 +1110,7 @@ char campo[5][5], play;
  
 
 }
-/*MODO HISTÓRIA*/
+/*MODO HISTÃ“RIA*/
 
 mainH(){
 	
@@ -1206,7 +1206,7 @@ mainH(){
 	if( (play=='W') || (play=='w') ){
 		
 			/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -1244,7 +1244,7 @@ mainH(){
 	}else if((play=='s') || (play=='S')){
 		
 			/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -1281,7 +1281,7 @@ mainH(){
 	}else if((play=='d') || (play=='D')){
 		
 			/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
@@ -1316,7 +1316,7 @@ mainH(){
 	}else if((play=='a') || (play=='A')){
 		
 		/*a cada jogada o jogador ganha +1 ponto
-		e esse valor[pontos] é mostrado no ficheiro
+		e esse valor[pontos] Ã© mostrado no ficheiro
 		'Game_pontos'
 		*/
 		pontos++;
