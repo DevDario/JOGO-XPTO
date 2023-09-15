@@ -3,58 +3,54 @@
 #include <string.h>
 #include <time.h>
 
-	
-	/*variável de escopo global*/
-	char player_name[21];
+    char player_name[21];
     int pontos;
 	
-	EscolherLevel(){
-		int esc;
+	ChooseLevel(){
+		int MenuChoise;
 		system("cls");
 		
-		printf("\n ESCOLHA O NIVEL \n");
+		printf("\n CHOSE YOUR LEVEL \n");
 		printf("\n 1- MEDIUM");
 		printf("\n 2- HARD");
 		printf("\n 3- IMPOSSIVEL");
-		printf("\n 4- VOLTAR AO MENU INICIAL \n");
+		printf("\n 4- GO BACK TO MAIN MENU \n");
 		scanf("%i",&esc);
 		
-		switch(esc){
-			case 1:levelMedium();
+		switch(MenuChoise){
+			case 1:MediumLevel();
 			break;
 			
-			case 2:levelHard();
+			case 2:HardLevel();
 			break;
 			
-			case 3:levelImpossible();
+			case 3:ImpossibleLevel();
 			break;
 			
 			case 4:main();
 			break;
 			
-			default:printf("Escolha invalida");
+			default:printf("Invalid Choise");
 			break;
 		}
 	}
 	
 	ShowFile(){
 	FILE*file;
-	file = fopen("Game_pontos.txt", "r"); 
-	char file_content[150];
+	file = fopen("Game_Points.txt", "r"); 
+	char FileContent[150];
 	
 	while(!feof(file)){
-		fgets(file_content, 150, file);
-		puts(file_content);
+		fgets(FileContent, 150, file);
+		puts(FileContent);
 	} 
 	
 	fclose(file);
 	}
-	
-	
-	
+
 main(){
-	int op;
-	printf("\n Player_name:");
+	int MenuOption;
+	printf("\n Username:");
 	gets(player_name);
 	
 	system("cls");
@@ -62,63 +58,49 @@ main(){
 	
 	printf("\n        XPTO          ");
 	printf("\n<========================>");
-	printf("\n  1- MODO HISTORIA");
-	printf("\n  2- MODO VIDA INFINITA");
-	printf("\n  3- ESCOLHER NIVEL");
-	printf("\n  4- SAIR \n");
-	scanf("%i",&op);
+	printf("\n  1- HISTORY MODE");
+	printf("\n  2- INFINITE LIFE MODE");
+	printf("\n  3- CHOOSE LEVEL");
+	printf("\n  4- LEAVE \n");
+	scanf("%i",&MenuOption);
 	
-	switch(op){
+	switch(MenuOption){
 		case 1:mainH();
 		break;
+		
 		case 2:VidaInfinita();
 		break;
+		
 		case 3:EscolherLevel();
 		break;
+		
 		case 4:break;
 		break;
 		
 		default:
-		printf("\n escolha invalida");
+		printf("\n Invalid Choise");
 		break;
 	}
-	
-	
 }
 
-	/*NIVEIS*/
+	/*LEVELS*/
 	
-	/*NIVEL MEDIO*/
-	levelMedium(){
-			system("cls");
-	
-		/*valores aleatorias p/ linha e coluna (bombas)*/
-	long int t;
-	int col = time(&t)%5 + 0; /* valores entre 0 e 4 */
-	
-	
-	
-	long int u;
-	int lin = time(&u)%5 + 0; /* valores entre 0 e 4 */
+	/*MEDIUM LEVEL*/
+	MediumLevel(){
+	      system("cls");
+	      /*valores aleatorias p/ linha e coluna (bombas)*/
+	         long int t;
+	           int col = time(&t)%5 + 0; /* valores entre 0 e 4 */
+			long int u;
+				int lin = time(&u)%5 + 0; /* valores entre 0 e 4 */
+			/*valores aleatorias p/ linha e coluna (vidas)*/
+		int v;
+	     int colu = time(&v)%5 + 0; /* valores entre 0 e 4 */
 
-	
-
-	
-	
-		/*valores aleatorias p/ linha e coluna (vidas)*/
-	int v;
-	int colu = time(&v)%5 + 0; /* valores entre 0 e 4 */
-
-	
-	
 	int w;
 	int li = time(&w)%5 + 0; /* valores entre 0 e 4 */
 	printf("%i",li);
 
-
-	
-	
-	 
 	char campo[5][5], play;
 	int l,c;
 	int vPosicao[2] ={4,0};
@@ -361,7 +343,7 @@ main(){
 	
 	/*NIVEL HARD*/
 	
-	levelHard(){
+	HardLevel(){
 	
 	
 		system("cls");
@@ -636,7 +618,7 @@ main(){
 	
 	/*NIVEL IMPOSSIBLE*/
 	
-	levelImpossible(){
+	ImpossibleLevel(){
 		
 			system("cls");
 	
